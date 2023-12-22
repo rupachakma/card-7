@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:linear-gradient(90deg, rgba(71, 68, 68, 0.589) 0%, rgba(80, 79, 79, 0.622) 100%), url(../image/v2osk-1Z2niiBPg5A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    border-radius:  0 0 10% 10%;
+}
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.nav h2{
+    font-weight: bold;
+}
+.nav a{
+    color: white;
+    text-decoration-color: rgb(177, 211, 25);
+    font-size: 1em;
+}
+.header-content h1{
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px 0;
+}
+button{
+    background-color: rgb(23, 141, 29);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.main .card{
+    height: 20rem;
+    width: 17rem;
+    padding: 25px;
+    text-align: center;
+}
+.card p{
+    display: inline;
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.card .card-content{
+    padding: 20px 0;
+}
+.card-content h3{
+    padding: 0  0 30px;
+}
+.about-section{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    padding: 30px 100px;
+    position: relative;
+}
+.about-section img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about-section .about-content{
+    height: 17rem;
+    width: 45rem;
+    color: white;
+    background-color: rgb(151, 63, 151);
+    padding: 40px;
+    position: absolute;
+}
