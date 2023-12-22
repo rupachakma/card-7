@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background:linear-gradient(90deg, rgba(71, 68, 68, 0.589) 0%, rgba(80, 79, 79, 0.622) 100%), url(../image/v2osk-1Z2niiBPg5A-unsplash.jpg);
+    background:linear-gradient(90deg, rgba(71, 68, 68, 0.589) 0%, rgba(80, 79, 79, 0.622) 100%), url(../image/background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,11 +66,11 @@ button{
     padding: 0  0 30px;
 }
 .about-section{
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
-    border: 2px solid black;
-    padding: 30px 100px;
+    padding: 30px 200px;
     position: relative;
+    
 }
 .about-section img{
     height: 300px;
@@ -85,4 +85,23 @@ button{
     background-color: rgb(151, 63, 151);
     padding: 40px;
     position: absolute;
+    left: 410px;
+    bottom: 5px;
+    border-radius: 0 100px;
+}
+.about-section p{
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-icon{
+    margin: 10px;
+}
+.footer-icon i{
+    padding: 10px;
 }
